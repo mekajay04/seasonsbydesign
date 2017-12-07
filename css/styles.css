@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body {
+	background-color: #c2b3a1;
+	font-family: 'Courgette', cursive;
+}
+
+ .row p {
+	font-family: 'Noto Sans', sans-serif;
+	color: black;
+} 
+.icons {
+	text-align: center;
+}
+#background { 
+   background: url("../pictures/flowers.jpg"); 
+   background-repeat: no-repeat;
+	 min-height: 540px;
+	background-size: cover;
+	background-position: center;
+	z-index: 2;
+	color: #ffffff;
+}
+
+#overview { 
+	background-color: palevioletred;
+	background-repeat: no-repeat;
+	min-height: 540px; 
+		/* Create the parallax scrolling effect */
+	margin-right: 50%;
+	background-position: center;
+	z-index: 1;
+	color: #ffffff;
+}
+
+.mission {
+	margin-right: 50%;
+	padding-left: 35px;
+
+}
+
+#headerContainer {
+	margin-top: 10px;
+
+}
+#logo {
+
+	margin-bottom: -190px;
+	margin-left: 510px;
+	 display:inline-block; 
+	 position: absolute ;  
+	z-index: 2;  
+}
+
+#SeasonsMission {
+
+	 margin-top: 445px;
+	margin-left: 510px;
+	width: 645px;
+	display:inline-block;
+	text-align: center;
+	/* border: #434343; */
+	/* position: relative; */
+	z-index: 2;
+}
+  .navbar {
+	background-color: #f3ccff;
+	border-bottom: none;
+	 box-shadow: 2px 2px 3px black;  
+
+} 
+
+h1 {
+	text-align: center;
+	font-size: 85pt;
+	padding-top: 145px;
+	font-family: 'Quicksand', sans-serif;
+	color:white;
+}
+
+h2 {
+	color: gainsboro;
+	text-align: center;
+	
+}
+
+h3 {
+	color:black;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;	
+	font-size: 5em;
+}
+
+h4 {
+	color:black;
+	text-align: left;
+	font-family: 'Dancing Script', cursive;	
+	font-size: 3em;
+	margin-left: 65px;
+	padding-top: 10px;
+}
+/* .img-circle{
+	height:300px;
+	width: 300px;
+} */
+
+/* #overview2 { 
+	background-color: #c2b3a1;
+	background-repeat: no-repeat;
+	min-height: 540px; 
+		/* Create the parallax scrolling effect */
+	/* background-position: center;
+	z-index: 1;
+	float: left;
+	margin: 50px; */
+
+/* }  */
+ .right-side {
+	margin-top: -500px;
+	margin-left: 50%;
+	padding-left: 35px;
+
+} 
+
+#ceo {
+
+background: url("../pictures/together.jpg"); 
+background-repeat: no-repeat;
+min-height: 350px;
+background-size: cover;
+background-position: center;
+padding-bottom: 10px;
+z-index: 1;
+
+}
+
+ .bio {
+	margin-top: -485px;
+	margin-left: 50%;
+
+} 
+
+.bio p {
+	color: black;
+	text-align: justify;
+}
+
+ #about { 
+/* background: url("../pictures/plan.jpg"); */
+background-color: #ffffff; 
+color:white;  
+font-family: 'Quicksand', sans-serif;
+font-weight: bold;
+background-attachment: fixed; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 300px; 
+} 
+
+/* .pic { */
+	/* padding-top: 90px; */
+/* } */
