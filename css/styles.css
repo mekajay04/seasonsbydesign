@@ -130,6 +130,7 @@ background-repeat: no-repeat;
 min-height: 350px;
 background-size: cover;
 background-position: center;
+background-attachment: fixed;
 padding-bottom: 10px;
 z-index: 1;
 
@@ -140,6 +141,21 @@ z-index: 1;
 	margin-left: 50%;
 
 } 
+
+#events {
+
+background: url("../pictures/events.jpg"); 
+background-repeat: no-repeat;
+min-height: 480px;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+padding-bottom: 10px;
+padding-top:10px;
+z-index: 1;
+
+}
+
 
 .bio p {
 	color: black;
@@ -163,8 +179,41 @@ min-height: 300px;
  .pic { 
 	 padding-top: 90px; 
  } 
+
+
+  #eventContainer { 
+/* background: url("../pictures/plan.jpg"); */
+background-color: #ffffff; 
+color:white;  
+font-weight: bold;
+background-attachment: fixed; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 300px; 
+} 
  
+ .eventpic { 
+	margin-left: 452px;
+ } 
+
  #contact {
 	 padding-top: 20px;
 	 padding-left: 20px;
  }
+
+
+
+
+ @media screen and (max-width: 980px) {
+    
+    .view {display: none;} 
+    h4 {display: none;} 
+    .quote { display: none;} 
+	#logo {margin-left: 15%;}  
+	#SeasonsMission {margin-left: 10%;} 
+	#overview {text-align:center; background: none; margin-left: 95px;} 
+	.right-side {display: none;} 
+	.pic {display: none;} 
+	 .bio {text-align: left; font-size: 12px; margin-top: -55px; margin-right: 95px ;}  
+}
